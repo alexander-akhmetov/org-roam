@@ -55,6 +55,38 @@ Org-roam provides several benefits over other tooling:
 - Free and Open Source :: Org-roam is free and open-source, which means that if you feel unhappy with any part of Org-roam, you may choose to extend Org-roam, or open a PR.
 - Leverages the Org-mode ecosystem :: Over the years, Emacs and Org-mode has developed into a mature system for plain-text organization. Building upon Org-mode already puts Org-roam light-years ahead of many other solutions.
 - Built on Emacs :: Emacs is also a fantastic interface for editing text, and we can inherit many of the powerful text-navigation and editing packages available to Emacs.
+
+* A Brief Introduction to the Zettelkasten Method
+
+Org-roam provides utilities for maintaining a digital slip-box. This section
+aims to provide a brief introduction to the "slip-box", or "Zettelkasten"
+method. By providing some background on the method, we hope that the design
+decisions of Org-roam will become clear, and that will aid in using Org-roam
+appropriately. In this section we will also introduce terms commonly used within
+the Zettelkasten community, which will also commonly appear in the Org-roam
+forums and channels of discussion.
+
+The Zettelkasten method of note-taking is designed to increase research
+productivity: in particular, it acts as a research partner, where conversations
+with it may produce new and surprising lines of thought. This method is
+attributed to German sociologist Niklas Luhmann, who using the method had
+produced volumes of written works.
+
+In its paper form, the slip-box is simply a box of cards. These cards are small,
+and often only large enough to fit a single concept. The size limitation
+encourages ideas to be broken down into individual concepts. These ideas are
+explicitly linked together, using an indexing system. Enforcing the breakdown of
+ideas encourages tangential exploration of ideas, increasing the surface for
+thought. Making linking explicit between notes also encourages one to think
+about the connections between concepts, which forms a large part of research.
+
+Org-roam is the slip-box, digitalized in Org-mode. Every zettel (card) is a
+plain-text, Org-mode file. These files are often placed in the same directory.
+In the same way one would maintain a paper slip-box, Org-roam makes it easy to
+create new zettels, pre-filling boilerplate content using a powerful templating
+system. Org-roam also facilitates the linking of zettels using Org-mode ~file:~
+links.
+
 * Installation
 ** _ :ignore:
 Org-roam can be installed using Emacs' package manager or manually from its development repository.
